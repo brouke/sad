@@ -1,0 +1,74 @@
+.btn{
+    &__add{
+        &-button{
+        width: 273px;
+        height: 52px;
+        top: 59px;
+        left: 704px;
+        background: rgba(76, 175, 80, 1);
+        box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.161);
+        border-radius: 10px;
+        border: none; 
+        outline: none;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    }
+    &__close{
+        &-button{
+            width: 273px;
+            height: 52px;
+            top: 59px;
+            left: 704px;
+            background: rgba(115, 115, 115, 1);
+            box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.161);
+            border-radius: 10px;
+            border: none; 
+            outline: none;font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.13px;
+            text-align: left;
+            color: #ffffff;
+            text-align: center;
+            cursor: pointer;
+            
+        }
+    }
+    &__filter{
+        &-button{
+            font-family: OpenSans;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 34.05px;
+            text-align: left;
+            color: #4E3000;
+            background-color: #ffffff;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+        &:focus{
+            background: #C4C4C4;
+            border-radius: 20px;
+        }
+    }
+}
+}
+.circle{
+    padding: 20px;
+}
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(/assets/Font/Roboto.ttf); 
+}
+@font-face {
+	font-family: 'OpenSans'; 
+	src: url(/assets/Font/OpenSans.ttf); 
+}

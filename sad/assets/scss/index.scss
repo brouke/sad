@@ -1,0 +1,16 @@
+@import './Button/index.scss';
+@import './Input/index.scss';
+@import './Modal/index.scss';
+@import './Select/index.scss';
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#__nuxt {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
