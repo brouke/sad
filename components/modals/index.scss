@@ -20,6 +20,7 @@
           }
           @media screen and (width < 940px){
             width: 700px;
+            height: fit-content;
           }
     }
     &__close{
@@ -84,7 +85,7 @@
             display: flex;
             gap: 34px;
             justify-content: center;
-            padding-top: 48px;
+            padding: 48px 0px;
         }
     }
 }

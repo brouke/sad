@@ -1,7 +1,8 @@
 <template>
     <div class="btn">
         <button
-            :class="class"
+        :class="className"
+        class="btn__default" 
         >{{ placeholder }}</button>
     </div>
 </template>
@@ -10,7 +11,7 @@ const props = defineProps({
     placeholder:{
         type: String,
     }, 
-    class:{
+    className:{
         type: String,
     },
 })

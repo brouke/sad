@@ -40,12 +40,12 @@
         <Button
           placeholder="Добавить"
           @click="submit()"
-          class="btn__add-button"
-        />
+          :className="'btn__add-button'"        
+          />
         <Button
           @click="$emit('close')"
           placeholder="закрыть"
-          class="btn__close-button"
+          :className="'btn__close-button'"
         />
       </div>
     </div>
