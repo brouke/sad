@@ -12,12 +12,12 @@
         <div class="modal__form">
           <div class="modal__form-input">
             <p>ФИО</p>
-            <Input v-model="staff.name" @blur="validateField('name')" />
+            <Input v-model="staff.name" @blur="validateField('name')" placeholder="ФИО"/>
             <span v-if="errors.name">{{ errors.name }}</span>
           </div>
           <div class="modal__form-input">
             <p>Компания</p>
-            <Input v-model="staff.company" @blur="validateField('company')" />
+            <Input v-model="staff.company" @blur="validateField('company')" placeholder="Компания"/>
             <span v-if="errors.company">{{ errors.company }}</span>
           </div>
           <div class="modal__form-input">
